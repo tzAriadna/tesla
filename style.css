@@ -1,0 +1,1324 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}    
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 60px 58px 42.72px;
+}
+
+.header__logo {
+    height: 51px;
+}
+
+.nav-header__center {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header__link {
+    font: 600 15px/18px Montserrat;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-header__link_active {
+    color: #E51937;
+    left: 16%;
+    position: relative;
+}
+
+.nav-header__link_active::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: #E51937;
+    right: 1%;
+    top: 25px;
+}
+
+.nav-header__link-modelx {
+    position: relative;
+    left: 12%;
+}
+
+.nav-header__link-model3 {
+    position: relative;
+    left: 2.4%;
+}
+
+.nav-header__link-roadster {
+    position: relative;
+    right: 4.4%;
+}
+
+.nav-header__link-Energy {
+    position: relative;
+    right: 11%;
+}
+
+.nav-header__right {
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header__link-shop {
+    position: relative;
+    right: 1%;
+}
+
+.header__burger {
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+}
+
+.burger-line {
+    width: 24px;
+    height: 2px;
+    background: #E51937;
+}
+
+.burger-second {
+    margin: 4.5px 0;
+} 
+
+.nav-header__link,
+.row-header__btn,
+.header__burger,
+.row-info__btn {
+    cursor: pointer;
+}
+
+.header__burger:hover {
+    background: lightgrey;
+}
+
+.nav-header__link:hover {
+    background: lightgrey;
+}
+
+.header__sec {
+    display: block;
+    text-align: center;
+}
+
+.header-sec__title {
+    font: 600 90px/110px Montserrat;
+    margin-bottom: -9px;
+}
+
+.header-sec__subtitle {
+    font: 500 15px/18px Montserrat;
+    margin-bottom: 26px;
+}
+
+.header-sec__picture {
+    display: flex;
+    justify-content: center;
+    background: url('img/1section/bg_tesla.png') 0 841%/100% auto no-repeat;
+}
+
+.header-sec__img {
+    position: relative;
+    right: 2.5%;
+    max-width: 67.22%;
+}
+
+.header__rows {
+    height: 58px;
+    max-width: 798px;
+    display: flex;
+    justify-content: space-between;
+    margin: 27px auto 0;
+}
+
+.desc__content {
+    font: 600 35px/43px Montserrat;
+}
+
+.desc__unit {
+    font: 600 20px/24px Montserrat;
+}
+
+.desc__additionally {
+    font: normal 12px/15px Montserrat;
+    margin: 5px 0 0;
+    position: relative;
+    bottom: 7px;
+}
+
+.desc__content,
+.row-header__speed,
+.row-header__distance {
+    display: inline-block;
+}
+
+.speed__icon-block,
+.distance__icon-block,
+.test-drive__icon-block {
+    display: none;
+}
+
+.speed__icon {
+    margin: 0 2% 2px -4%;
+}
+
+.distance__icon {
+    margin: 0 -2px 0px 65px;
+}
+
+.rows-header__second {
+    display: flex;
+    align-items: center;
+}
+
+.row-header__test-drive,
+.row-section__info {
+    font: bold 13px/16px Montserrat;
+    margin-top: 4px;
+    text-transform: uppercase;
+}
+
+.row-header__btn,
+.row-section__btn {
+    font: bold 13px/16px Montserrat;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E51937;
+    border: 2px solid #E51937;
+    width: 160px;
+    height: 40px;
+    box-sizing: border-box;
+    background: transparent;
+    margin-left: 40px;
+}
+
+.header__arrow-down {
+    width: 22px;
+    height: 22px;
+    border: 3px solid #E51937;
+    transform: rotate(135deg);
+    transform-origin: left top;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    margin: 35px 51% -57px;
+}
+
+.row-header__btn:hover {
+    box-shadow: 0 0 10px 2px #E51937;
+}
+
+.main__picture {
+    display: block;
+}
+
+.main__img {
+    display: block;
+    margin-top: 58px;
+    max-width: 88.4%;
+    min-width: 88.4%;
+    min-height: 844px;
+    max-height: 40%;
+}
+
+.main__img-ipad,
+.main__img-mobile {
+    display: none;
+}
+
+.main__title {
+    display: inline-block;
+    font: 600 70px/85px Montserrat;
+    color: #E51937;
+    position: relative;
+    top: 152px;
+    left: 5.6%;
+}
+
+.section {
+    background:  #E51937;
+    color: #fff;
+    width: 440px;
+    height: 900px;
+    float: right;
+    position: relative;
+    bottom: 900px;
+}
+
+.article {
+    margin: 50px 72px 54px 52px;
+    font: 500 15px/18px Montserrat;
+}
+
+.article__title {
+    font: 600 30px/37px Montserrat;
+    margin-bottom: 14px;
+}
+
+.main__aside {
+    display: block;
+    margin: 0 10px 0 48px;
+}
+
+.display {
+    position: relative;
+    top: 7px;
+    left: 9px;
+    margin-bottom: 27px;
+}
+
+.display__icon {
+    margin: 0 14px -5px -4px;
+}
+
+.wifi {
+    margin-bottom: -12px;
+}
+
+.wifi__icon {
+    margin: 0 17px 53px 0;
+}
+
+.desc__content-wifi {
+    font: 600 20px/18px Montserrat;
+    white-space: pre-line;
+}
+
+.desc__additionally-wifi {
+    position: relative;
+    bottom: 18px;
+}
+
+.bag__icon {
+    margin: 0px 20px 26px 5px;
+}
+
+.desc__additionally-bag {
+    white-space: pre-line;
+    position: relative;
+    bottom: 24px;
+}
+
+.section__row {
+    margin: 146px 44px 63px 49px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-section__info {
+    position: relative;
+    top: 8px;
+    left: 7px;
+}
+
+.row-section__icon {
+    position: relative;
+    top: 8px;
+    height: 22px;
+}
+
+.row-section__btn {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.row-section__btn:hover {
+    box-shadow: 0 0 10px 2px #fff;
+}
+
+.footer {
+    background: url('img/3section/Model S.png') right 142px no-repeat;
+    height: 900px;
+}
+
+.footer__section {
+    float: left;
+    bottom: 0;
+    max-width: 4400px;
+    min-height: 900px;
+}
+
+.footer__article {
+    margin: 50px 68px 55px 56px;
+}
+
+.article-footer__title {
+    margin-bottom: 14px;
+}
+
+.footer__aside {
+    display: block;
+    margin: 0 92px 0 56px;
+}
+
+.aside-footer__title {
+    margin-bottom: 27px;
+}
+
+.line-aside__item {
+    font: bold 17px/21px Montserrat;
+    text-transform: uppercase;
+    padding-top: 3px;
+}
+
+.item__additionally {
+    font: bold 10px/12px Montserrat;
+}
+
+.stars__items {
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    background: url('img/3section/icon_star.png') 0 0 no-repeat;
+}
+
+.aside-footer__appraisal {
+    display: flex;
+    flex-direction: column;
+}
+
+.appraisal__line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.footer__security {
+    display: block;
+    margin: 89px 0 52px 66px;
+}
+
+.security__5-stars {
+    font: 600 50px/61px Montserrat;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.security__small-text {
+    font: 600 25px/30px Montserrat;
+    position: relative;
+    bottom: 8px;
+}
+
+.footer-section__row {
+    margin: -1px 55px 0 38px;
+}
+
+.desc-footer__img {
+    max-width: 100%;
+}
+
+.footer__car-desc-im {
+    display: none;
+}
+
+.desc-footer__img-ipad,
+.desc-footer__img-mobile {
+    display: none;
+}
+
+.footer__car-desc {
+    position: absolute;
+    display: inline-block;
+    max-width: 72.847%;
+    margin: 222px 0 0 -95px;
+}
+
+.desc-footer__d {
+    font: 600 17px/15px Montserrat;
+    white-space: pre-line;
+    display: inline-block;
+}
+
+.desc-footer__d1 {
+    position: absolute;
+    left: calc(50% - 150px/2 - 15.8%);
+    top: calc(50% - 45px/2 - 48.6%);
+}
+
+.desc-footer__d1::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 271px;
+    background: #E51937;
+    left: -15px;
+    top: 16px;
+}
+
+.desc-footer__d1::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #FFFFFF;
+    border: 3px solid #E51937;
+    box-sizing: border-box;
+    border-radius: 50%;
+    top: 281px;
+    right: 156px;
+}
+
+.desc-footer__d2 {
+    position: absolute;
+    left: calc(50% - 150px/2 + 10.5%);
+    top: calc(50% - 45px/2 - 57.3%);
+}
+
+.desc-footer__d2::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 122px;
+    background: #E51937;
+    left: -12px;
+    top: 16px;
+}
+
+.desc-footer__d2::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #FFFFFF;
+    border: 3px solid #E51937;
+    box-sizing: border-box;
+    border-radius: 50%;
+    top: 135px;
+    right: 153px;
+}
+
+.desc-footer__d3 {
+    position: absolute;
+    left: calc(50% - 225px/2 + 19.5%);
+    top: calc(50% - 45px/2 + 35.8%);
+}
+
+.desc-footer__d3::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 108px;
+    background: #E51937;
+    bottom: 4px;
+    left: -14px;
+}
+
+.desc-footer__d3::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #FFFFFF;
+    border: 3px solid #E51937;
+    box-sizing: border-box;
+    border-radius: 50%;
+    right: 230px;
+    bottom: 107px;
+}
+
+@media (max-width: 879px) {
+
+    .header__menu {
+        margin: 24px 34px 80.32px 14.32px;
+    }
+
+    .nav-header__link {
+        display: none;
+    }
+
+    .nav-header__right {
+        justify-content: flex-end;
+    }
+
+    .header__burger {
+        vertical-align: middle;
+        height: 22px;
+        margin-bottom: 3px;
+    }
+
+    .burger-line {
+        width: 35px;
+        height: 3px;
+        background: #E51937;
+    }
+
+    .burger-second {
+        margin: 6.5px 0;
+    }
+
+    .header__sec {
+        background: url('img/1section/bg_tesla.png') -13px 97px/109% auto no-repeat;
+    }
+
+    .header-sec__subtitle {
+        font-size: 15px;
+        margin-bottom: 86px;
+    }
+
+    .header-sec__picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-sec__img { 
+        left: 0;
+        max-width: none;
+        max-width: 87.76%;
+    }
+
+    .header__rows {
+        max-width: 487.27px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 33px auto 65px;
+        position: relative;
+    }
+
+    .rows-header__first {
+        width: 100%;
+        display: block;
+        margin-bottom: 56px;
+    }
+
+    .speed__icon,
+    .distance__icon,
+    .test-drive__icon {
+        display: none;
+    }
+
+    .speed__icon-block {
+        display: inline-block;
+        height: 83px;
+        width: 75px;
+        background: url("img/1section/icon__speed_ipad.png") 0 20px no-repeat;
+        margin-right: 6px;
+    }
+
+    .distance__icon-block {
+        display: inline-block;
+        width: 55px;
+        height: 83px;
+        background: url("img/1section/icon_distance_ipad.png") 0 0 no-repeat;
+        position: relative;
+        left: -5px;
+        top: 6px;
+    }
+
+    .row-header__distance {
+        float: right;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+
+    .desc__content {
+        font: 600 50px/61px Montserrat;
+    }
+
+    .desc__unit {
+        font: 600 20px/24px Montserrat;
+        position: relative;
+        right: 2px;
+        bottom: 6px;
+    }
+
+    .desc__additionally {
+        font: normal 12px/15px Montserrat;
+        margin: 5px 0 0;
+        position: relative;
+        bottom: 7px;
+    }
+
+    .desc__content,
+    .row-header__speed,
+    .row-header__distance {
+        display: inline-block;
+    }
+
+    .rows-header__second {
+        max-width: 418px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+    }
+
+    .row-header__btn,
+    .row-section__btn {
+        font: bold 16px/20px Montserrat;
+        width: 220px;
+        height: 55px;
+        color: #fff;
+        background: #E51937;
+        float: right;
+    }
+
+    .test-drive__icon-block {
+        display: inline-block;
+        width: 47px;
+        height: 55px;
+        background: url("img/1section/icon_test-drive_ipad.png") 0 0 no-repeat;
+        position: relative;
+        left: -8px;
+    }
+    
+    .row-header__test-drive,
+    .row-section__info {
+        font: bold 16px/20px Montserrat;
+        color: #E51937;
+        margin: 0 2px -4px -1px;
+    }
+
+    .header__arrow-down {
+        position: relative;
+        left: 8px;
+    }
+
+    header {
+        margin-bottom: 26px;
+    }
+
+    .main__img-ipad {
+        display: block;
+        width: 100%;
+    }
+
+    .main__img,
+    .main__img-mobile {
+        display: none;
+    }
+
+    .main__title {
+        display: inline-block;
+        float: right;
+        position: relative;
+        margin-right: 6%;
+        top: 1.35em;
+        left: 0;
+    }
+
+    .section {
+        width: 100%;
+        min-height: 487px;
+        height: auto;
+        float: none;
+        position: static;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 150px;
+        grid-template-areas: "article aside"
+                             "section__row section__row"
+    }
+
+    .article {
+        grid-area: article;
+    }
+
+    .aside-grid {
+        grid-area: aside;
+    }
+
+    .section__row {
+        grid-area: section__row;
+        margin: 0 auto;
+        width: 459px;
+    }
+
+    .main__article {
+        margin: 54px 10px 0 34px;
+    }
+
+    .main__aside {
+        margin: 58px 20px 0 16%;
+    }
+
+    .article__title {
+        margin-bottom: 23px;
+    }
+
+    .display__icon,
+    .wifi__icon,
+    .bag__icon,
+    .row-section__icon {
+        display: none;
+    }
+
+    .display {
+        background: url('img/2section/icon_display_ipad.png') 8px 2px no-repeat;
+        margin: -2px 0 22px -10px;
+    }
+
+    .wifi {
+        background: url('img/2section/icon_wifi_ipad.png') 1px 23px no-repeat;
+        margin: 0 0 -8px 4px;
+    }
+
+    .bag {
+        background: url('img/2section/icob_bag_ipad.png') 4px 4px no-repeat;
+        margin-left: 4px;
+    }
+
+    .desc__content-ipad {
+        font: 600 35px/43px Montserrat;
+        margin: -9px 0 0 65px;
+    }
+
+    .desc__unit-ipad {
+        position: static;
+    }
+
+    .desc__content-wifi {
+        font: 600 20px/18px Montserrat;
+        word-break: break-all;
+    }
+    
+    .desc__additionally-wifi {
+        position: relative;
+        bottom: 17px;
+    }
+
+    .desc__additionally-bag {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .section__row {
+        background: url('img/2section/icon_info_ipad.png') -1px 11px no-repeat;
+        margin-top: 42px;
+        max-width: 59.7%;
+    }
+
+    .row-section__info {
+        color: #fff;
+        margin: 10px 0 0 35px;
+    }
+
+    .footer__section {
+        margin-top: 0;
+        height: auto;
+        min-height: 487px;
+        grid-template-rows: 1fr 150px;
+    }
+
+    .footer__article {
+        margin: 62.82px 20px 0 34px;
+    }
+
+    .article-footer__title {
+        margin-bottom: 13px;
+    }
+
+    .footer__aside {
+       margin: 63px 14% 57px 10%;
+    }
+
+    .aside-footer__title {
+        margin-bottom: 26px;
+    }
+
+    .item__additionally {
+        position: relative;
+        right: 2px;
+    }
+
+    .footer__security {
+        display: none;
+    }
+
+    .footer-section__row {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        background: url('img/3section/Model S_ipad.png') 0 62px/101% auto  no-repeat;
+        height: auto;
+    }
+
+    .footer__car-desc {
+        display: none;
+    }
+
+    .desc-footer__img-mobile {
+        display: none;
+    }
+
+    .desc-footer__img-ipad {
+        display: block;
+        position: relative;
+        top: 113px;
+        max-width: 100%;
+        margin-bottom: 146px;
+    }
+
+    .footer__car-desc-im {
+        position: relative;
+        display: inline-block;
+        margin-top: 0;
+        width: 96%;
+    }
+
+
+    .desc-footer__im {
+        font: 600 15px/13px Montserrat;
+        white-space: pre-line;
+        display: inline-block;
+    }
+
+    .desc-footer__im1 {
+        position: absolute;
+        left: calc(50% - 119.98px/2 - 16.6%);
+        bottom: calc(50% + 39px/2 + 20.5%);
+    }
+
+    .desc-footer__im1::before {
+        content: '';
+        position: absolute;
+        background: #E51937;
+        width: 2.86px;
+        height: 193.79px;
+        left: -10px;
+        top: 12px;
+    }
+
+    .desc-footer__im1::after {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: #FFFFFF;
+        border: 3px solid #E51937;
+        box-sizing: border-box;
+        border-radius: 50%;
+        top: 204px;
+        right: 123px;
+    }
+
+    .desc-footer__im2 {
+        position: absolute;
+        left: calc(50% - 96.94px/2 + 8.6%);
+        bottom: calc(50% + 39px/2 + 26.8%);
+    }
+
+    .desc-footer__im2::before {
+        content: '';
+        position: absolute;
+        width: 2.86px;
+        height: 87.24px;
+        background: #E51937;
+        top: 14px;
+        right: 102.5px;
+    }
+
+    .desc-footer__im2::after {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: #FFFFFF;
+        border: 3px solid #E51937;
+        box-sizing: border-box;
+        border-radius: 50%;
+        top: 101px;
+        right: 99.5px;
+    }
+
+    .desc-footer__im3 {
+        position: absolute;
+        left: calc(50% - 161.81px/2 + 19.9%);
+        bottom: calc(50% + 39px/2 - 40.2%);
+    }
+
+    .desc-footer__im3::before {
+        content: '';
+        position: absolute;
+        width: 2.86px;
+        height: 77.23px;
+        background: #E51937;
+        left: -19px;
+        bottom: 2px;
+    }
+
+    .desc-footer__im3::after {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: #FFFFFF;
+        border: 3px solid #E51937;
+        box-sizing: border-box;
+        border-radius: 50%;
+        right: 174px;
+        bottom: 78px;
+    }
+}
+
+@media (max-width: 694px) {
+    .appraisal__line {
+        flex-direction: column;
+    }
+
+    .line-aside__item {
+        margin-bottom: 7px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .main__title {
+        top: 51px;
+    }
+
+     .desc__content {
+        font: 600 40px/51px Montserrat;
+    }
+
+    .desc__content-wifi {
+        font: 600 20px/18px Montserrat;
+    }
+
+    .footer__aside {
+        margin: 63px 0 57px 10%;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .header__menu {
+        margin: 5px 21px 30px 2px;
+    }
+
+    .header__logotype,
+    .nav-header__link {
+        display: none;
+    }
+    
+    .header__logo {
+        height: 42px;
+        width: 100%;
+        background: url('img/1section/logo_tesla_mobile.png') 0 0/auto 100% no-repeat;
+    }
+
+    .header__burger {
+        vertical-align: middle;
+        height: 15px;
+        position: relative;
+        top: 2px;
+    }
+
+    .burger-line {
+        width: 24px;
+        height: 3px;
+        background: #E51937;
+    }
+
+    .burger-second {
+        margin: 3px 0;
+    }
+
+    .header__sec {
+        background: url('img/1section/bg_tesla.png') -17px 81px/113% auto no-repeat;
+    }
+
+    .header-sec__title {
+        font: 600 50px/61px Montserrat;
+        margin-bottom: -2px;
+    }
+    .header-sec__subtitle {
+        font: 500 10px/12px Montserrat;
+        margin-bottom: 49px;
+    }
+
+    .header-sec__picture {
+        display: flex;
+        justify-content: center;
+        height: 166px;
+    }
+
+    .header-sec__img {
+        max-width: 95.2%;
+        height: 100%;
+    }
+
+    .header__rows {
+        max-width: 303px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px auto -13px;
+        position: relative;
+    }
+
+    .rows-header__first {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 5px 36px 0;
+    }
+
+    .speed__icon,
+    .distance__icon,
+    .test-drive__icon {
+        display: none;
+    }
+
+    .speed__icon-block {
+        display: inline-block;
+        height: 53px;
+        width: 49px;
+        background: url("img/1section/icon_speed_mobile.png") 0 0 no-repeat;
+        position: relative;
+    }
+
+    .distance__icon-block {
+        display: inline-block;
+        width: 33px;
+        height: 53px;
+        background: url("img/1section/icon_distance_mobile.png") 0 -7px no-repeat;
+        position: relative;
+        left: -5px;
+        bottom: 5px;
+    }
+
+    .row-header__distance {
+        float: right;
+        margin-top: 0;
+    }
+
+
+    .desc__content {
+        font: 600 27px/33px Montserrat;
+    }
+
+    .desc__unit {
+        font: 600 15px/18px Montserrat;
+        position: relative;
+        top: 0;
+        left: 1px;
+    }
+
+    .desc__additionally {
+        font: normal 10px/12px Montserrat;
+        margin: 5px 0 0;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .desc__content,
+    .row-header__speed,
+    .row-header__distance {
+        display: inline-block;
+    }
+
+    .rows-header__second {
+        max-width: 100%;
+        height: 42px;
+        margin: 0 -5px 10px -4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .row-header__btn {
+        width: 160px;
+        height: 40px;
+        font: 600 13px/16px Montserrat;
+        color: #fff;
+        background: #E51937;
+        float: right;
+    }
+
+    .test-drive__icon-block {
+        display: inline-block;
+        width: 31px;
+        height: 40px;
+        background: url("img/1section/icon_test-drive_mobile.png") 0 0 no-repeat;
+        position: relative;
+        left: -5px;
+    }
+    
+    .row-header__test-drive {
+        font: 600 13px/16px Montserrat;
+        color: #E51937;
+        margin: 0 -16px 0 -1px;
+    }
+
+    .header__arrow-down {
+        position: relative;
+        left: 14px;
+    }
+
+    .main__img-mobile {
+        display: block;
+        margin-top: 54px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main__img,
+    .main__img-ipad {
+        display: none;
+    }
+
+    .main__title,
+    .main__aside,
+    .footer__aside,
+    .section__row {
+        display: none;
+    }
+
+    .section {
+        position: static;
+        display: block;
+        min-height: 304px;
+        padding-top: 19px;
+        padding-bottom: 20px;
+    }
+
+    .article {
+        margin: 0 10px 0 27px;
+    }
+
+    .article__title {
+        margin-bottom: 11px;
+    }
+
+    .footer {
+        background: url('img/3section/Model S_mobile.png') 0 48px/100% auto  no-repeat;
+        height: auto;
+    }
+
+    .footer__article {
+        margin: 0 15px 0 31px;
+    }
+
+    .article-footer__title {
+        margin-bottom: 12px;
+    }
+
+    .desc-footer__img-ipad {
+        display: none;
+    }
+
+    .desc-footer__img-mobile {
+        display: block;
+        max-width: 100%;
+        margin-bottom: 103px;
+        position: relative;
+        top: 75px;
+    }
+
+    .footer__car-desc-im {
+        width: 96%;
+    }
+
+    .desc-footer__im {
+        font: 600 7px/6px Montserrat;
+    }
+
+    .desc-footer__im1 {
+        position: absolute;
+        left: calc(50% - 56px/2 - 15.8%);
+        bottom: calc(50% + 18px/2 + 16%);
+    }
+
+    .desc-footer__im1::before {
+        content: '';
+        width: 1.38px;
+        height: 93.47px;
+        left: -4px;
+        top: 5px;
+    }
+
+    .desc-footer__im1::after {
+        content: '';
+        width: 4.38px;
+        height: 4.38px;
+        background: #FFFFFF;
+        border: 3px solid #E51937;
+        box-sizing: border-box;
+        border-radius: 50%;
+        top: 96px;
+        right: 57px;
+    }
+
+    .desc-footer__im2 {
+        left: calc(50% - 96.94px/2 + 16.2%);
+        bottom: calc(50% + 39px/2 + 18.3%);
+    }
+
+    .desc-footer__im2::before {
+        content: '';
+        width: 1.38px;
+        height: 42.08px;
+        top: 5px;
+        right: 47.5px;
+    }
+
+    .desc-footer__im2::after {
+        content: '';
+        width: 4.83px;
+        height: 4.83px;
+        background: #FFFFFF;
+        border: 3px solid #E51937;
+        box-sizing: border-box;
+        border-radius: 50%;
+        top: 47px;
+        right: 45.5px;
+    }
+
+    .desc-footer__im3 {
+        left: calc(50% - 161.81px/2 + 30.8%);
+        bottom: calc(50% + 39px/2 - 44%);
+    }
+
+    .desc-footer__im3::before {
+        content: '';
+        width: 1.38px;
+        height: 37.25px;
+        left: -4px;
+        bottom: 10px;
+    }
+
+    .desc-footer__im3::after {
+        content: '';
+        width: 4.83px;
+        height: 4.83px;
+        background: #FFFFFF;
+        border: 3px solid #E51937;
+        box-sizing: border-box;
+        border-radius: 50%;
+        right: 75px;
+        bottom: 47px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .nav-header__center {
+        margin: 0 0 0 0;
+    }
+
+    .nav-header__link {
+        position: static;
+    }
+
+    .nav-header__link_active {
+        position: relative;
+        margin: 0 47px 0 -74px;
+    }
+}
+
+@media (min-width: 1441px) {
+    .header-sec__picture {
+        background: url(img/1section/bg_tesla.png) 0 -145px/100% auto no-repeat;
+    }
+}

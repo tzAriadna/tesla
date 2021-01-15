@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Tesla</title>
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<link rel="stylesheet" href="./fonts.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__menu">
+			<div class="header__logo"><img class="header__logotype" src="img/1section/logo-Tesla.jpg" alt="Tesla"></div>
+			<nav class="header__nav nav-header nav-header__center">
+				<a href="#" class="nav-header__link nav-header__link_active">Model S</a>
+				<a href="#" class="nav-header__link nav-header__link-modelx">Model X</a>
+				<a href="#" class="nav-header__link nav-header__link-model3">Model 3</a>
+				<a href="#" class="nav-header__link nav-header__link-roadster">Roadster</a>
+				<a href="#" class="nav-header__link nav-header__link-Energy">Energy</a>
+			</nav>
+			<nav class="header__nav nav-header nav-header__right">
+				<a href="#" class="nav-header__link nav-header__link-shop">Магазин</a>
+				<a href="#" class="nav-header__link nav-header__link-comein">Войти</a>
+				<div class="header__burger">
+					<div class="burger-line burger-first"></div>
+   					<div class="burger-line burger-second"></div>
+   					<div class="burger-line burger-third"></div>
+				</div>
+			</nav>
+		</div>
+		<div class="header__sec">
+			<h1 class="header-sec__title">Model S</h1>
+			<p class="header-sec__subtitle">Добро пожаловать в будущее!</p>
+			<picture class="header-sec__picture">
+				<source class="header-sec__img" srcset="img/1section/tesla_header_ipad.png" type="image/png" media="(max-width: 768px)">
+				<source class="header-sec__img" srcset="img/1section/tesla_header_mobile.png" type="image/png" media="(max-width: 375px)">
+				<img class="header-sec__img" src="img/1section/tesla_header.png" alt="Tesla (Red Car)">
+			</picture>
+		</div>
+    <div class="header__rows rows-header">
+      <div class="rows-header__first   row-header">
+        <div class="row-header__speed speed">
+        	<img class="speed__icon" src="img/1section/icon_speed.png" alt="Иконка скорости">
+          <div class="speed__icon-block"></div>
+          <div class="speed__desc desc__content">
+            2,7 <span class="desc__unit">сек</span>
+            <p class="desc__additionally">0-100 км/час</p>
+          </div>
+        </div>
+        <div class="row-header__distance distance">
+        	<img class="distance__icon" src="img/1section/icon_distance.png" alt="Иконка расстояния">
+          <div class="distance__icon-block"></div>
+          <div class="distance__desc desc__content">
+            632 <span class="desc__unit">км</span>
+            <p class="desc__additionally">запас хода</p>
+          </div>
+        </div>
+      </div>
+      <div class="rows-header__second row-header">
+      	<img class="test-drive__icon" src="img/1section/icon_test-drive.png" alt="Иконка тест драйв">
+        <div class="test-drive__icon-block"></div>
+        <div class="row-header__test-drive test-drive">тест драйв</div>
+        <input class="row-header__btn" type="button" value="заказать">
+      </div>
+    </div>
+    <div class="header__down"><div class="header__arrow-down"></div></div>
+	</header>
+
+	<main class="main">
+		<h2 class="main__title">Model S</h2>
+		<div class="main__picture">
+			<img class="main__img" src="img/2section/interior.png" alt="Салон машины">
+			<img class="main__img-ipad" src="img/2section/interior_ipad.png" alt="Салон машины">
+			<img class="main__img-mobile" src="img/2section/interior_mobile.png" alt="Салон машины">
+		</div>
+		<section class="main__section section section__mobile">
+			<article class="article main__article">
+				<h3 class="article__title">Будущее вождения</h3>
+				Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17&#8209;дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую сo студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
+			</article>
+			<aside class="main__aside aside-grid aside">
+				<div class="aside__display display">
+					<img class="display__icon" src="img/2section/icon_display.png" alt="Иконка дисплея">
+					<div class="display__desc desc__content desc__content-ipad">
+						17 <span class="desc__unit desc__unit-ipad">дюймов</span>
+						<p class="desc__additionally">Большой дисплей</p>
+					</div>
+				</div>
+				<div class="aside__wifi wifi">
+					<img class="wifi__icon" src="img/2section/icon_wifi.png" alt="Иконка WiFi">
+					<div class="wifi__desc desc__content desc__content-wifi desc__content-ipad" id="desc__content_wifi">
+						Беспроводное
+						обновление ПО
+						<p class="desc__additionally desc__additionally-wifi">
+						Повышенная
+						функциональность</p>
+					</div>
+				</div>
+				<div class="aside__bag bag">
+					<img class="bag__icon" src="img/2section/icon_bag.png " alt="Иконка объема">
+					<div class="bag__desc desc__content desc__content-ipad">
+						894 <span class="desc__unit desc__unit-ipad">литра</span>
+						<p class="desc__additionally desc__additionally-bag">
+						Объем грузового
+						пространства</p>
+					</div>
+				</div>
+			</aside>
+			<div class="section__row row-section">
+				<img class="row-section__icon" src="img/2section/icon_info.png" alt="Узнать больше ">
+				<div class="row-section__info">узнать больше</div>
+				<input class="row-section__btn" type="button" value="заказать">
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__car-desc-im desc-footer">
+			<img class="desc-footer__img-ipad" src="img/3section/Car frame_ipad.png" alt="Скелет машины">
+			<img class="desc-footer__img-mobile" src="img/3section/car frame_mobile.png" alt="Скелет машины">
+			<div class="desc-footer__im desc-footer__im1">
+			Защита от
+			удара спереди</div>
+			<div class="desc-footer__im desc-footer__im2">
+			Защита от
+			удара сбоку</div>
+			<div class="desc-footer__im desc-footer__im3">
+			Минимальный риск
+			перевернуться в
+			аварии</div>
+		</div>
+		<section class="section footer__section section__mobile">
+			<article class="article footer__article article-footer">
+				<h4 class="article__title article-footer__title"> Самый безопас&shy;ный автомо&shy;биль в мире</h4>
+				Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
+			</article>
+			<aside class="footer__aside aside-footer aside-grid ">
+				<h5 class="aside-footer__title article__title">Оценка защиты:</h5>
+				<div class="aside-footer__appraisal appraisal">
+					<div class="appraisal__line line-aside">
+						<p class="line-aside__item item__first">спереди</p>
+						<div class="line-aside__stt stars">
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+						</div>
+					</div>
+					<div class="appraisal__line line-aside">
+						<p class="line-aside__item">сбоку</p>
+						<div class="line-aside__stt stars">
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+						</div>
+					</div>
+					<div class="appraisal__line line-aside">
+						<p class="line-aside__item">сбоку <span class="item__additionally">(стойка)</span></p>
+						<div class="line-aside__stt stars">
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+						</div>
+					</div>
+					<div class="appraisal__line line-aside">
+						<p class="line-aside__item">водитель</p>
+						<div class="line-aside__stt stars">
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+						</div>
+					</div>
+					<div class="appraisal__line line-aside">
+						<p class="line-aside__item">пассажир</p>
+						<div class="line-aside__stt stars">
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+							<div class="stars__items"></div>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<div class="footer__security footer__security-ipad security">
+				<img class="security__icon" src="img/3section/icon_security.png" alt="Иконка безопасности">
+				<div class="security__5-stars">
+					5 звезд
+					<p class="security__small-text">безопасности</p>
+				</div>
+			</div>
+			<div class="section__row footer-section__row">
+				<img class="row-section__icon" src="img/2section/icon_info.png" alt="Узнать больше ">
+				<div class="row-section__info">узнать больше</div>
+				<input class="row-section__btn" type="button" value="заказать">
+			</div>
+		</section>
+		<div class="footer__car-desc desc-footer">
+			<div class="desc-footer__d desc-footer__d1">
+			Защита от удара
+			спереди</div>
+			<div class="desc-footer__d desc-footer__d2">
+			Защита от удара
+			сбоку</div>
+			<div class="desc-footer__d desc-footer__d3">
+			Минимальный риск
+			перевернуться в аварии</div>
+			<img class="desc-footer__img" src="img/3section/Car frame.png" alt="Скелет машины">
+		</div>
+	</footer>
+</body>
+</html>
